@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-labelledby="title desc">
+  <title id="title">Corrector liquido</title>
+  <desc id="desc">Frasco de corrector liquido blanco.</desc>
+  <rect width="640" height="420" fill="#eef3f6"/>
+  <rect x="238" y="86" width="164" height="236" rx="34" fill="#ffffff" stroke="#202124" stroke-width="8"/>
+  <rect x="270" y="54" width="100" height="54" rx="14" fill="#2c3857"/>
+  <rect x="262" y="162" width="116" height="76" rx="12" fill="#007c75"/>
+  <path d="M286 268h68" stroke="#c9ced8" stroke-width="10" stroke-linecap="round"/>
+  <text x="320" y="210" text-anchor="middle" fill="white" font-family="Arial" font-size="27" font-weight="700">FIX</text>
+</svg>

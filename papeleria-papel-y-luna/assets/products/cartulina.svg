@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-labelledby="title desc">
+  <title id="title">Cartulina iris</title>
+  <desc id="desc">Hojas de cartulina de colores.</desc>
+  <rect width="640" height="420" fill="#eef1ed"/>
+  <rect x="170" y="90" width="238" height="210" rx="10" fill="#007c75" transform="rotate(-12 289 195)"/>
+  <rect x="204" y="98" width="238" height="210" rx="10" fill="#f0b429" transform="rotate(-4 323 203)"/>
+  <rect x="236" y="112" width="238" height="210" rx="10" fill="#d94b5f" transform="rotate(7 355 217)"/>
+  <path d="M270 176h142M270 214h112" stroke="#ffffff" stroke-width="12" stroke-linecap="round" opacity=".55"/>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-labelledby="title desc">
+  <title id="title">Set de lapices</title>
+  <desc id="desc">Lapices amarillos sobre fondo verde claro.</desc>
+  <rect width="640" height="420" fill="#e5f0ea"/>
+  <circle cx="118" cy="86" r="62" fill="#007c75" opacity=".22"/>
+  <g transform="rotate(-18 320 210)">
+    <rect x="140" y="142" width="320" height="36" rx="10" fill="#f0b429"/>
+    <rect x="140" y="194" width="320" height="36" rx="10" fill="#ffd36b"/>
+    <rect x="140" y="246" width="320" height="36" rx="10" fill="#d99b1d"/>
+    <path d="M460 142l70 18-70 18zM460 194l70 18-70 18zM460 246l70 18-70 18z" fill="#f6dcc0"/>
+    <path d="M530 160l28 0M530 212l28 0M530 264l28 0" stroke="#202124" stroke-width="12" stroke-linecap="round"/>
+    <rect x="104" y="142" width="42" height="36" rx="8" fill="#d94b5f"/>
+    <rect x="104" y="194" width="42" height="36" rx="8" fill="#d94b5f"/>
+    <rect x="104" y="246" width="42" height="36" rx="8" fill="#d94b5f"/>
+  </g>
+</svg>

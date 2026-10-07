@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-labelledby="title desc">
+  <title id="title">Regla metalica</title>
+  <desc id="desc">Regla metalica de treinta centimetros.</desc>
+  <rect width="640" height="420" fill="#f0f4f4"/>
+  <g transform="rotate(-12 320 210)">
+    <rect x="106" y="174" width="430" height="76" rx="12" fill="#c4cad2" stroke="#202124" stroke-width="6"/>
+    <path d="M148 174v34M188 174v22M228 174v34M268 174v22M308 174v34M348 174v22M388 174v34M428 174v22M468 174v34" stroke="#202124" stroke-width="5"/>
+    <circle cx="500" cy="212" r="14" fill="#f0f4f4" stroke="#202124" stroke-width="5"/>
+  </g>
+</svg>

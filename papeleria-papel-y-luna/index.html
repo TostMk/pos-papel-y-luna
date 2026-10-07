@@ -1,0 +1,34 @@
+﻿<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#2c3857">
+  <title>Papel y Luna | Punto de venta</title>
+  <link rel="stylesheet" href="styles/main.css?v=20261007-3">
+</head>
+<body>
+  <header class="app-header">
+    <div><p class="eyebrow">Papelería Papel y Luna</p><h1>Punto de venta</h1><p class="header-copy">Ventas, inventario y compras de tu papelería.</p></div>
+    <div class="header-summary"><span>Total de la venta</span><strong id="headerTotal">$0</strong><span id="connectionBadge" class="connection-badge" hidden><i></i>Conectado</span></div>
+  </header>
+  <nav class="main-nav" aria-label="Navegación principal">
+    <button class="nav-button is-active" data-view="sale">Venta</button><button class="nav-button" data-view="products">Productos</button><button class="nav-button" data-view="history">Ventas</button><button class="nav-button" data-view="purchases">Compras</button><button class="nav-button" data-view="entities">Contactos y categorías</button>
+  </nav>
+  <main class="app-shell">
+    <p id="appStatus" class="helper-text" role="status">Conectando con el servicio…</p>
+    <section id="saleView" class="view is-active"><div class="sale-layout">
+      <section class="catalog-section"><div class="section-heading"><div><p class="eyebrow">Catálogo</p><h2 id="catalogTitle">Productos</h2><p id="catalogCount" class="helper-text"></p></div><label class="search-box">Buscar<input id="searchInput" type="search" placeholder="Nombre o código"></label></div><div id="catalogGrid" class="catalog-grid"></div></section>
+      <aside class="invoice-panel"><div class="invoice-header"><div><p class="eyebrow">Venta en curso</p><h2>Carrito</h2></div><span id="lineCount" class="line-count">0 líneas</span></div>
+        <label>Cliente<select id="saleCustomer"><option value="">Venta sin cliente</option></select></label><div id="invoiceContent" class="invoice-content"></div><div class="totals"><div class="total-row"><span>Subtotal</span><strong id="subtotalValue">$0</strong></div><div class="total-row grand-total"><span>Total</span><strong id="totalValue">$0</strong></div></div>
+        <form id="paymentForm" class="payment-form"><label>Método de pago<select id="paymentMethod"><option>Efectivo</option><option>Nequi</option><option>Debe</option></select></label><label id="receivedField">Valor recibido<input id="receivedAmount" type="number" min="0" step="100"></label><p id="changeValue" class="change-value"></p><div class="inline-actions"><button id="saveOpenSale" class="secondary-button" type="button">Guardar abierta</button><button id="confirmSaleButton" class="primary-button" type="submit">Cerrar venta</button></div></form>
+        <div class="inline-actions"><button id="newSaleButton" class="text-button" type="button">Nueva venta</button><select id="openSalesSelect" aria-label="Ventas abiertas"><option value="">Retomar venta abierta…</option></select></div>
+      </aside></div></section>
+    <section id="productsView" class="view"><div class="section-heading"><div><p class="eyebrow">Inventario</p><h2>Productos</h2></div><button id="newProductButton" class="primary-button">Nuevo producto</button></div><div id="productFormContainer"></div><div class="table-wrap"><table><thead><tr><th>Código</th><th>Producto</th><th>Categoría</th><th>Precio</th><th>Costo</th><th>Stock</th><th>Acciones</th></tr></thead><tbody id="productsTableBody"></tbody></table></div></section>
+    <section id="historyView" class="view"><div class="section-heading"><div><p class="eyebrow">Registro</p><h2>Ventas</h2></div></div><div id="historyList" class="history-list"></div></section>
+    <section id="purchasesView" class="view"><div class="section-heading"><div><p class="eyebrow">Abastecimiento</p><h2>Compras a proveedores</h2></div></div><form id="purchaseForm" class="product-form"><h3>Registrar compra</h3><label>Proveedor<select id="purchaseSupplier" required></select></label><label>Fecha de compra<input id="purchaseDate" type="date" required></label><label>Producto<select id="purchaseProduct" required></select></label><label>Cantidad<input id="purchaseQuantity" type="number" min="1" value="1" required></label><label>Costo unitario<input id="purchaseCost" type="number" min="0" required></label><button id="addPurchaseLine" class="secondary-button" type="button">Agregar producto</button><div id="purchaseLines" class="history-list"></div><p class="total-row grand-total">Total de compra <strong id="purchaseTotal">$0</strong></p><button class="primary-button" type="submit">Registrar compra</button></form><div id="purchaseList" class="history-list"></div></section>
+    <section id="entitiesView" class="view"><div class="section-heading"><div><p class="eyebrow">Administración</p><h2>Contactos y categorías</h2></div></div><div class="entity-tabs"><label>Sección<select id="entityResource"><option value="categorias">Categorías</option><option value="proveedores">Proveedores</option><option value="clientes">Clientes</option></select></label><label>Buscar<input id="entitySearch" type="search" placeholder="Nombre, teléfono o correo"></label><button id="newEntityButton" class="primary-button">Nuevo registro</button></div><div id="entityFormContainer"></div><div id="entityList" class="history-list"></div></section>
+    <section id="receiptView" class="view"><div class="section-heading"><div><p class="eyebrow">Comprobante</p><h2>Factura de venta</h2></div><div class="inline-actions"><button class="secondary-button" data-view="history">Volver</button><button id="printReceiptButton" class="primary-button">Imprimir / guardar PDF</button></div></div><article id="receiptContent" class="receipt"></article></section>
+  </main><div id="modal" class="modal" hidden></div><div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script type="module" src="scripts/app.js?v=20261007-3"></script>
+</body></html>

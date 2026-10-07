@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-labelledby="title desc">
+  <title id="title">Marcadores pastel</title>
+  <desc id="desc">Marcadores de colores pastel en abanico.</desc>
+  <rect width="640" height="420" fill="#f5edf3"/>
+  <g transform="translate(114 76)">
+    <rect x="40" y="32" width="54" height="236" rx="16" fill="#9bd4c8" transform="rotate(-18 67 150)"/>
+    <rect x="116" y="18" width="54" height="250" rx="16" fill="#f7b4c6" transform="rotate(-8 143 143)"/>
+    <rect x="196" y="10" width="54" height="258" rx="16" fill="#f3d47b"/>
+    <rect x="276" y="18" width="54" height="250" rx="16" fill="#b7c8f4" transform="rotate(8 303 143)"/>
+    <rect x="352" y="32" width="54" height="236" rx="16" fill="#cdb4db" transform="rotate(18 379 150)"/>
+  </g>
+  <path d="M166 322h306" stroke="#202124" stroke-width="14" stroke-linecap="round"/>
+</svg>

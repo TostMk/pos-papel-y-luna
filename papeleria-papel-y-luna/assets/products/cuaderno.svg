@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-labelledby="title desc">
+  <title id="title">Cuaderno argollado</title>
+  <desc id="desc">Ilustracion de un cuaderno azul con luna dorada.</desc>
+  <rect width="640" height="420" fill="#efe8d8"/>
+  <circle cx="510" cy="82" r="78" fill="#f3c966"/>
+  <rect x="164" y="72" width="294" height="286" rx="18" fill="#2c3857"/>
+  <rect x="194" y="102" width="234" height="226" rx="10" fill="#f7f4ec"/>
+  <path d="M164 98h-34M164 148h-34M164 198h-34M164 248h-34M164 298h-34" stroke="#202124" stroke-width="12" stroke-linecap="round"/>
+  <path d="M235 150h150M235 198h150M235 246h112" stroke="#86a7a5" stroke-width="12" stroke-linecap="round"/>
+</svg>

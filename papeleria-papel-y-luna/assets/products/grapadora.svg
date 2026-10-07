@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-labelledby="title desc">
+  <title id="title">Grapadora compacta</title>
+  <desc id="desc">Grapadora compacta de oficina.</desc>
+  <rect width="640" height="420" fill="#f2edf8"/>
+  <path d="M148 244c24-74 100-128 238-128 66 0 104 24 122 58H260c-48 0-82 24-100 70z" fill="#2c3857"/>
+  <path d="M132 250h392c16 0 28 12 28 28s-12 28-28 28H132c-16 0-28-12-28-28s12-28 28-28z" fill="#d94b5f"/>
+  <rect x="190" y="296" width="280" height="20" rx="8" fill="#9aa4b2"/>
+</svg>

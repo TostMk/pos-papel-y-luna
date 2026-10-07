@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-labelledby="title desc">
+  <title id="title">Pegante en barra</title>
+  <desc id="desc">Tubo de pegante escolar.</desc>
+  <rect width="640" height="420" fill="#fff1dd"/>
+  <rect x="242" y="78" width="156" height="258" rx="26" fill="#f7f4ec" stroke="#202124" stroke-width="8"/>
+  <rect x="260" y="120" width="120" height="106" rx="16" fill="#d94b5f"/>
+  <rect x="258" y="58" width="124" height="42" rx="12" fill="#2c3857"/>
+  <rect x="252" y="314" width="136" height="34" rx="12" fill="#007c75"/>
+  <text x="320" y="184" text-anchor="middle" fill="white" font-family="Arial" font-size="30" font-weight="700">GLUE</text>
+</svg>

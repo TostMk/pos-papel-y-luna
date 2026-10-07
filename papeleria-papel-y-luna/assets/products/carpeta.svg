@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-labelledby="title desc">
+  <title id="title">Carpeta acordeon</title>
+  <desc id="desc">Carpeta acordeon con separadores.</desc>
+  <rect width="640" height="420" fill="#edf0fb"/>
+  <path d="M138 140h142l28 36h194c22 0 40 18 40 40v104H98V180c0-22 18-40 40-40z" fill="#2c3857"/>
+  <path d="M126 200h388v118H126z" fill="#f0b429"/>
+  <path d="M160 226h320M160 258h320M160 290h320" stroke="#d99b1d" stroke-width="12"/>
+</svg>

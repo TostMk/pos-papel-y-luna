@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-labelledby="title desc">
+  <title id="title">Resma de papel</title>
+  <desc id="desc">Pila de hojas blancas tamano carta.</desc>
+  <rect width="640" height="420" fill="#e8edf3"/>
+  <rect x="160" y="98" width="316" height="212" rx="12" fill="#d6dbe4"/>
+  <rect x="146" y="82" width="316" height="212" rx="12" fill="#ffffff" stroke="#c9ced8" stroke-width="5"/>
+  <rect x="186" y="134" width="236" height="70" rx="8" fill="#007c75"/>
+  <path d="M194 240h220M194 270h164" stroke="#c9ced8" stroke-width="12" stroke-linecap="round"/>
+  <text x="304" y="181" text-anchor="middle" fill="white" font-family="Arial" font-size="34" font-weight="700">Carta</text>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-labelledby="title desc">
+  <title id="title">Notas adhesivas</title>
+  <desc id="desc">Notas adhesivas de colores superpuestas.</desc>
+  <rect width="640" height="420" fill="#f7f4ec"/>
+  <rect x="166" y="112" width="180" height="158" rx="10" fill="#f3d47b" transform="rotate(-8 256 191)"/>
+  <rect x="268" y="92" width="180" height="158" rx="10" fill="#9bd4c8" transform="rotate(9 358 171)"/>
+  <rect x="224" y="174" width="190" height="150" rx="10" fill="#f7b4c6"/>
+  <path d="M250 218h118M250 252h94" stroke="#202124" stroke-width="10" stroke-linecap="round" opacity=".35"/>
+</svg>

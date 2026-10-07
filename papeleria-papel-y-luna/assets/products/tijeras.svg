@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-labelledby="title desc">
+  <title id="title">Tijeras escolares</title>
+  <desc id="desc">Tijeras con mangos rojos y hojas metalicas.</desc>
+  <rect width="640" height="420" fill="#eef5f2"/>
+  <path d="M302 210L178 102M314 220L464 84" stroke="#9aa4b2" stroke-width="26" stroke-linecap="round"/>
+  <path d="M304 214L184 316M316 222L472 330" stroke="#9aa4b2" stroke-width="26" stroke-linecap="round"/>
+  <circle cx="170" cy="325" r="50" fill="none" stroke="#d94b5f" stroke-width="24"/>
+  <circle cx="492" cy="342" r="50" fill="none" stroke="#d94b5f" stroke-width="24"/>
+  <circle cx="310" cy="216" r="18" fill="#f0b429"/>
+</svg>
